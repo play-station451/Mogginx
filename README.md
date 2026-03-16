@@ -1,5 +1,5 @@
 # Mogginx - Modernized-ish version of womginx with better site support
-> Note: Still will not compete on the level of site support of Ultraviolet/Scramjet, its advantage is due to it being mostly serverside (can work completely serverside actually, just with less site support) it is very fast (nginx is fast) and requires very little client side performance to run smoothly (old chromebooks wont explode). Its also far less secure so do not use this (unless your self hosting) expecting your data to be safe, also no encoding (YET) so its pretty easy for external programs to look into the requests/urls.
+> Note: Still will not compete on the level of site support of /Scramjet, its advantage is due to it being mostly serverside (can work completely serverside actually, just with less site support) it is very fast (nginx is fast) and requires very little client side performance to run smoothly (old chromebooks wont explode). Its also far less secure so do not use this (unless your self hosting) expecting your data to be safe, also no encoding (YET) so its pretty easy for external programs to look into the requests/urls.
 <img width="1280" height="720" alt="mogginxmogging" src="https://github.com/user-attachments/assets/63484911-458e-4584-9304-02f302208059" />
 
 > Fastest proxy using only nginx as the backend server
