@@ -158,14 +158,10 @@ RUN sed -i '/load_module.*ngx_http_subs_filter_module/d' /opt/womginx/nginx.conf
     cp /opt/womginx/nginx.conf /etc/nginx/nginx.conf
 
 # Test nginx configuration
-RUN nginx -t
 
 # default environment variables
 ENV PORT=80
 
 EXPOSE 80
-
-STOPSIGNAL SIGTERM
-
 # Run the entrypoint script
 CMD ["/opt/womginx/docker-entrypoint.sh"]
